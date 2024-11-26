@@ -1,9 +1,18 @@
-# HGAME 2024 WP
+---
+title: "🎓HGAME 2024"
+desc: "HGAME 2024 Write Up"
+tags: "WP"
+updateTime: "2023-2-29 16:59"
+outline: deep
+---
 
-> 包含WEEK1/3/4我做出来的题目。第二周因为配置原因好像无法上传blog...... <br>
-> 语言比较随意，真有人来看看的话请见谅
+# WP for HGAME 2024
 
-<br>
+::: info Something.
+包含WEEK1/3/4我做出来的题目。第二周因为配置原因好像无法上传blog......
+
+语言比较随意，真有人来看看的话请见谅
+:::
 
 ## WEEK1
 

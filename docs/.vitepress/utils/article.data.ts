@@ -8,7 +8,7 @@ export { data };
 /**
  * 返回 src/Notes/ 目录下所有 md 文档信息
  */
-export default createContentLoader("Blogs/Live/**/*.md", {
+export default createContentLoader("Blogs/**/*.md", {
   transform(rawData): Post[] {
     return rawData
       .map(({ url, frontmatter }) => ({

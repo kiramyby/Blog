@@ -1,14 +1,21 @@
+---
+title: "🎓Pickle of Lyrics For You"
+desc: "羊城杯 Lyrics For You Pickle反序列化 WriteUp"
+tags: "WP/Python"
+updateTime: "2024-11-27 00:20"
+outline: deep
+---
+
 # 羊城杯 Lyrics For You WP
 
->~~本来想详细写一下但是发现已经有很多优秀文章了，所以不再斗胆一写了~~
->
->先放点关于pickle的文章
->
->[Pickle反序列化 - 枫のBlog](https://goodapple.top/archives/1069)
->
->[通过AST来构造Pickle opcode](https://xz.aliyun.com/t/7012?time__1311=n4%2BxnD0Dy7it0QYuq05%2BbWDODc0M%3DtkHe4D#toc-0)
->
->[从零开始python反序列化攻击：pickle原理解析 & 不用reduce的RCE姿势](https://zhuanlan.zhihu.com/p/89132768)
+::: info Something.
+~~本来想详细写一下但是发现已经有很多优秀文章了，所以不再斗胆一写了~~
+
+先放点关于pickle的文章
+<LinkCard desc="Pickle反序列化 - 枫のBlog" link="https://goodapple.top/archives/1069" />
+<LinkCard desc="通过AST来构造Pickle opcode" link="https://xz.aliyun.com/t/7012?time__1311=n4%2BxnD0Dy7it0QYuq05%2BbWDODc0M%3DtkHe4D#toc-0" />
+<LinkCard desc="从零开始python反序列化攻击：pickle原理解析 & 不用reduce的RCE姿势" link="https://zhuanlan.zhihu.com/p/89132768" />
+:::
 
 ## 什么是pickle
 

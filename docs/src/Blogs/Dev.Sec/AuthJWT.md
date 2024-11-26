@@ -1,10 +1,16 @@
+---
+title: "🎓鉴权及JWT分析"
+desc: "常见web应用鉴权方案简介，以及关于JWT的分析"
+tags: "Dev.Sec"
+updateTime: "2023-12-27 00:20"
+outline: deep
+---
+
 # 鉴权及JWT分析
 
-<br>
-
-> （写于2023年12月）
-
-> 这篇其实时间跨度很长，从期中考试前的C语言课到更新这天，主要还是根据之前列的东西慢慢学吧~ 这段时间变化和想法都挺多的，不过就留到其他时候再说吧，这里专注于鉴权和JWT~
+::: info Something.
+这篇其实时间跨度很长，从期中考试前的C语言课到更新这天，主要还是根据之前列的东西慢慢学吧~ 这段时间变化和想法都挺多的，不过就留到其他时候再说吧，这里专注于鉴权和JWT~
+:::
 
 ## 主要鉴权方法
 
@@ -20,7 +26,9 @@
 
 ## HTTP Basic Authentication
 
-> 一种很简单的认证方式，所以同时也很不安全
+::: info
+一种很简单的认证方式，所以同时也很不安全
+:::
 
 基于HTTP请求，用请求头`Authorization`携带认证信息
 
@@ -66,11 +74,11 @@ Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 
 关于`Apache`和`Nginx`的设置可以参见[HTTP 身份验证 - HTTP | MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Authentication#使用_apache_限制访问和_basic_身份验证)
 
-
-
 ### Digest Authentication
 
-> 感觉把摘要认证视为对HTTP基本认证的小优化会更好
+::: info
+感觉把摘要认证视为对HTTP基本认证的小优化会更好
+:::
 
 本质是将明文传输变成携带验证方式的传输，通过摘要值可以对信息进行校验、防篡改（？
 
@@ -94,15 +102,15 @@ GET /index.html HTTP/1.0
 Authorization: Digest username="alice", realm="example", nonce="dcd98b7102dd2f0e8b11d0f600bfb0c093", uri="/dir/index.html", qop=auth, nc=00000001, cnonce="0a4f113b", response="6629fae49393a05397450978507c4ef1", opaque="5ccc069c403ebaf9f0171e9517f40e41"
 ```
 
-
-
 ## Session-Cookie
 
-> 在服务器中储存会话数据，基于`session_id`进行识别调用
+::: info
+在服务器中储存会话数据，基于`session_id`进行识别调用
+
+使无状态的http可以承载状态信息
+:::
 
 ### Cookie
-
-> 使无状态的http可以承载状态信息
 
 `Cookie`是服务器发送到用户浏览器并保存在本地的一小块数据。浏览器会存储`cookie`并在下次向同一服务器再发起请求时携带并发送到服务器上。
 
@@ -133,7 +141,7 @@ Set-Cookie: tasty_cookie=strawberry
 
 流程可以参考下图
 
-![session-cookie](https://doc.k1r4ca.top/pic/session-cookie202404132322692.jpg)
+![session-cookie](https://oss.kiracoon.top/pic/session-cookie202404132322692.jpg)
 
 ### and More
 
@@ -155,7 +163,7 @@ Token 和 Session-Cookie 认证方式中的 Session ID 不同，并非只是一�
 
 具体流程如图
 
-![Token](https://doc.k1r4ca.top/pic/token202404132318473.jpg)
+![Token](https://oss.kiracoon.top/pic/token202404132318473.jpg)
 
 优点：服务端无状态，无需访问远程访问或数据库，支持跨域跨程序调用，可以有效避免CSRF（无cookie）
 
@@ -227,7 +235,7 @@ OAuth 协议又有 1.0 和 2.0 两个版本，2.0 版整个授权验证流程更
 
 来张快乐简图
 
-![jwt-cas](https://doc.k1r4ca.top/pic/jwt-cas.jpeg)
+![jwt-cas](https://oss.kiracoon.top/pic/jwt-cas.jpeg)
 
 Sir,this way! [一篇文章彻底弄懂CAS实现SSO单点登录原理](https://www.cnblogs.com/wangsongbai/p/10299655.html)
 
@@ -309,33 +317,18 @@ HMACSHA256(
 
 > 这下搞明白之前Ek1ng问的伪造jwt的方式了，先~~通过什么奇奇怪怪的方法~~拿到secret，然后基于secret进行签名的构造
 
-<br>
-
 ### 在线生成器
 
 [官方工具](https://jwt.io/#debugger-io)  可在网站上直接生成JWT  ~~加密小玩具~~
 
-
-
-<br><br>
-
 > 没啥好说的，继续努力吧，本来就是什么都不会捏~
 
-<br>
+---
 
+**参考文章**
 
-
-> 参考文章
->
-> [HTTP基本认证 - 维基百科](https://zh.wikipedia.org/wiki/HTTP基本认证)
->
-> [前端开发登录鉴权方案完全梳理 | mrsingsing](https://tsejx.github.io/blog/authentication/)
->
-> [HTTP | MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)
->
-> [Web 鉴权方案 | 阿菇の博客 ](http://ma5hr00m.top/posts/dev/usual-auth)
->
-> [一篇文章彻底弄懂CAS实现SSO单点登录原理 - Hi，王松柏](https://www.cnblogs.com/wangsongbai/p/10299655.html)
->
-> [JSON Web Tokens - jwt.io](https://jwt.io/)
-
+<LinkCard desc="HTTP基本认证 - 维基百科" link="https://zh.wikipedia.org/wiki/HTTP基本认证" />
+<LinkCard desc="前端开发登录鉴权方案完全梳理 | mrsingsing" link="https://tsejx.github.io/blog/authentication/" />
+<LinkCard desc="HTTP | MDN" link="https://developer.mozilla.org/zh-CN/docs/Web/HTTP" />
+<LinkCard desc="一篇文章彻底弄懂CAS实现SSO单点登录原理 - Hi，王松柏" link="https://www.cnblogs.com/wangsongbai/p/10299655.html" />
+<LinkCard desc="JSON Web Tokens - jwt.io" link="https://jwt.io/" />

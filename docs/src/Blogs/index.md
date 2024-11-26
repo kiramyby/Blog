@@ -9,12 +9,16 @@ hero:
 types:
   - name: "Compete"
     desc: "Competitions Challenges"
-    link: "/Blogs/Live/Compete"
-    icon: "✨"
-  - name: "面经分享"
-    desc: "interview experiences"
-    link: "/Notes/Interviews/"
-    icon: "🏃"
+    link: "/Blogs/Compete"
+    icon: "🚩"
+  - name: "Vuln"
+    desc: "Vulnerability Analysis"
+    link: "/Blogs/Vuln"
+    icon: "🕳️"
+  - name: "Rambling"
+    desc: "What done is done."
+    link: "/Blogs/Rambling/HearWindSing"
+    icon: "🏝"
 # flow: true
 ---
 

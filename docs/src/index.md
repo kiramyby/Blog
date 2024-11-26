@@ -6,7 +6,7 @@ hero:
   text: "Kiracoon"
   tagline: "Komm, süsser Tod."
   image:
-    src: 'https://gravatar.com/userimage/254719268/72347ac6f137b6763d676fa5199057a3.jpeg?size=256'
+    src: 'https://gravatar.com/userimage/254719268/72347ac6f137b6763d676fa5199057a3.jpeg?size=275'
     alt: Kiracoon
   actions:
     - theme: brand
@@ -14,7 +14,7 @@ hero:
       link: /blogs/
     - theme: alt
       text: Welcome to M1-K1 !
-      link: /m1-k1/
+      link: /m1-k1
 
 features:
   - icon: 🛠️
@@ -30,5 +30,5 @@ features:
   - icon: 🧠
     title: 我 / Me
     details: 黄昏 <br> たそかれ。
-    link: /about
+    link: /AboutMe
 ---

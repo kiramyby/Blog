@@ -2,27 +2,32 @@
 aside: false
 ---
 
-# About
+# About Me
 
-> You can call me Kira.
+::: info TIP
+You can call me ***Kira***.
+:::
 
-## Info
+### whoami
 
-> ***Common ID:*** Kiracoon / Kira / Mik7r4
+::: tip Info
+***Common ID:*** Kiracoon
+
+***Name:*** Yan Wei / 韦岩
+
+| HDU grade 2023 | Vidar-Team Web | Hduhelp Frontend |
+:::
+
+### how to reach me
+
+::: tip Contact
+***X:*** https://x.com/Kir4_C4
+
+***E-mail:*** kiramyby@gmail.com
+:::
+
+> Don't go gentle into that good night.
 >
-> ***Name:*** Yan Wei / 韦岩
->
-> ***Direction of Learning:*** Web Dev and Sec
-
-## How to reach me
-
-> X: https://x.com/Kir4_C4
-> 
-> E-mail: kiramyby@gmail.com
->
+>Rage, rage against the dying of the light.
 
 ***To Be Continued...***
-
-*『 Don't go gentle into that good night.*
-
-*Rage, rage against the dying of the light.』*  

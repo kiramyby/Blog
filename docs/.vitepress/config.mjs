@@ -1,11 +1,12 @@
 import { defineConfig } from "vitepress";
 import { fileURLToPath, URL } from "node:url";
 import { getSidebar } from "./utils/getSidebar";
+import { tasklist } from '@mdit/plugin-tasklist'
 
 export default defineConfig({
   // 标签上显示的网站标题
-  title: "Kiracoon's Blog",
-  titleTemplate: "Blog",
+  title: "Kira's Blog",
+  titleTemplate: "Kiracoon",
   // 在标签上显示所的 logo
   head: [["link", { rel: "icon", href: "http://q1.qlogo.cn/g?b=qq&nk=1102841383&s=100" }]],
 
@@ -35,7 +36,7 @@ export default defineConfig({
     ],
     // 首页底部版权声明
     footer: {
-      copyright: "Copyright © 2023-present kiracoon",
+      copyright: "Copyright © 2023-present Kiracoon",
     },
     // 【文章页面左侧导航】
     sidebar: {
@@ -51,7 +52,11 @@ export default defineConfig({
   // 数学公式支持
   markdown: {
     math: true,
+    config: (md) => {
+      md.use(tasklist)
+    }
   },
+
   // !请勿修改
   vite: {
     resolve: {
