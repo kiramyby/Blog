@@ -19,7 +19,7 @@ hero:
 features:
   - icon: 🛠️
     title: 文章 / Articles
-    link: /blogs/
+    link: /Blogs/
     details: 关于技术，关于生活 <br> About Technology, About Life.
 
   - icon: 💡
