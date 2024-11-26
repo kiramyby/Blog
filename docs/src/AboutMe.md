@@ -2,12 +2,27 @@
 aside: false
 ---
 
-# 👋 Hi, 很高兴见到你
+# About
 
-你可以在这里填写关于自己的一些自我介绍！
+> You can call me Kira.
 
-（当然你也可以删掉这个页面，记得在配置文件的 `nav` 中删掉对应的字段）
+## Info
 
-放一张**格温小姐**丰富页面！
+> ***Common ID:*** Kiracoon / Kira / Mik7r4
+>
+> ***Name:*** Yan Wei / 韦岩
+>
+> ***Direction of Learning:*** Web Dev and Sec
 
-![](/hi.jpg)
+## How to reach me
+
+> X: https://x.com/Kir4_C4
+> 
+> E-mail: kiramyby@gmail.com
+>
+
+***To Be Continued...***
+
+*『 Don't go gentle into that good night.*
+
+*Rage, rage against the dying of the light.』*  

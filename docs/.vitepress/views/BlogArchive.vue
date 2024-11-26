@@ -23,7 +23,7 @@
         <h1
           class="pb-2 text-3xl font-bold transition-all duration-300 border-b-4 border-sky-500 dark:border-sky-700 w-fit hover:pr-6"
         >
-          ✨ 近期更新
+          ✨ Articles
         </h1>
         <div class="mt-4" :class="flow ? 'columns-1 lg:columns-2 gap-8' : ''">
           <PostCard
