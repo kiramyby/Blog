@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Link Start!
-      link: /blogs/
+      link: /Blogs/
     - theme: alt
       text: Welcome to M1-K1 !
       link: /m1-k1
