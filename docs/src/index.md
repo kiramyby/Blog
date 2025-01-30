@@ -6,7 +6,7 @@ hero:
   text: "Kiracoon"
   tagline: "Komm, süsser Tod."
   image:
-    src: 'https://oss.kiracoon.top/pic/avatar_main01.png'
+    src: 'https://oss.kiracoon.top/pic/avatar_main000.png'
     alt: Kiracoon
   actions:
     - theme: brand
