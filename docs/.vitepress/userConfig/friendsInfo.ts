@@ -25,7 +25,7 @@ export const friendsInfo: Friend[] = [
     name: "Ec3o",
     title: "",
     link: "https://tech.ec3o.fun/",
-    tag: "Vidar-Team Web & Hduhelp",
+    tag: "Vidar-Team Web & HDUHELP",
     color: "sky",
   },
   {
@@ -66,6 +66,14 @@ export const friendsInfo: Friend[] = [
     title: "",
     link: "https://zenaxu.cn/",
     tag: "Vidar-Team Pwn",
+    color: "sky",
+  },
+  {
+    avatar: "https://woshiluo.com/favicon.png",
+    name: "woshiluo",
+    title: "",
+    link: "https://woshiluo.com/",
+    tag: "Vidar-Team & HDUHELP ALL(",
     color: "sky",
   },
 ];
