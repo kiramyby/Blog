@@ -20,9 +20,11 @@ You can call me ***Kira***.
 
 ### Hi there!
 
+::: tip Intro
 A nameless CTFer, wide range of interests but turn out to be shallow.
 
 Trying to be an expert in frontend and interaction, together with AI.
+:::
 
 ### How to reach me
 
