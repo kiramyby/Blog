@@ -76,4 +76,12 @@ export const friendsInfo: Friend[] = [
     tag: "Vidar-Team & HDUHELP ALL(",
     color: "sky",
   },
+  {
+    avatar: "http://q.qlogo.cn/headimg_dl?dst_uin=3411281455&spec=640&img_type=jpg",
+    name: "Kinoko",
+    title: "Be hopeful about life.",
+    link: "https://blog.kinoko.fun/",
+    tag: "Vidar-Team Web & HDUHELP",
+    color: "sky",
+  },
 ];

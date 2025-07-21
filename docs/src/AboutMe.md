@@ -11,14 +11,20 @@ You can call me ***Kira***.
 ### whoami
 
 ::: tip Info
-***Common ID:*** Kiracoon
+***Common ID:*** Kiracoon / M1k7ya
 
 ***Name:*** Yan Wei / 韦岩
 
-| HDU grade 2023 | Vidar-Team Web | Hduhelp Frontend |
+| HDU CS grade 2023 | Vidar-Team Web | Hduhelp Frontend |
 :::
 
-### how to reach me
+### Hi there!
+
+A nameless CTFer, wide range of interests but turn out to be shallow.
+
+Trying to be an expert in frontend and interaction, together with AI.
+
+### How to reach me
 
 ::: tip Contact
 ***X:*** https://x.com/Kir4_C4
